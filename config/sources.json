@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Research Forum Alpha",
+    "url": "http://localhost:9999/forum_alpha",
+    "source_type": "forum",
+    "auth_ref": "AUTH-2026-101",
+    "auth_note": "Synthetic research-permitted fixture. No real content.",
+    "crawl_frequency_seconds": 3600,
+    "crawl_policy": {
+      "depth": 2,
+      "rate_ppm": 10,
+      "timeout_s": 30,
+      "respect_robots": true,
+      "max_pages": 50
+    }
+  },
+  {
+    "name": "Research Paste Beta",
+    "url": "http://localhost:9999/paste_beta",
+    "source_type": "paste",
+    "auth_ref": "AUTH-2026-102",
+    "auth_note": "Synthetic research-permitted fixture.",
+    "crawl_frequency_seconds": 900,
+    "crawl_policy": {
+      "depth": 1,
+      "rate_ppm": 20,
+      "timeout_s": 20,
+      "respect_robots": true,
+      "max_pages": 20
+    }
+  },
+  {
+    "name": "Research Blog Gamma",
+    "url": "http://localhost:9999/blog_gamma",
+    "source_type": "blog",
+    "auth_ref": "AUTH-2026-103",
+    "auth_note": "Synthetic research-permitted fixture.",
+    "crawl_frequency_seconds": 7200
+  },
+  {
+    "name": "Unauthorized Leak Site (no auth record)",
+    "url": "http://localhost:9999/no_auth_leak",
+    "source_type": "marketplace",
+    "auth_ref": "",
+    "auth_note": "No authorization record — must be skipped by the loader (hard gate).",
+    "crawl_frequency_seconds": 3600
+  }
+]

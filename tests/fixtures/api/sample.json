@@ -1,0 +1,8 @@
+{
+  "title": "Synthetic JSON Threat Bulletin",
+  "content": "This JSON threat intelligence record is fabricated for pipeline testing. It describes a fictitious adversary targeting research infrastructure. All indicators are synthetic and used only for testing.",
+  "link": "http://localhost:9999/api/bulletins/1",
+  "published_at": "2026-09-01T12:00:00Z",
+  "author": "researcher_02",
+  "tags": ["apt", "synthetic", "test"]
+}

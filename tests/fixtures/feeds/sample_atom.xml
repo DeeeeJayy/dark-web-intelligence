@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Synthetic Threat Intelligence Atom Feed</title>
+  <link href="http://localhost:9999/feeds/atom" rel="self"/>
+  <link href="http://localhost:9999/home"/>
+  <updated>2026-09-02T09:30:00Z</updated>
+  <entry>
+    <title>Synthetic APT Campaign Bulletin</title>
+    <link href="http://localhost:9999/bulletins/1"/>
+    <id>http://localhost:9999/bulletins/1</id>
+    <updated>2026-09-02T09:30:00Z</updated>
+    <published>2026-09-01T12:00:00Z</published>
+    <author><name>researcher_03</name></author>
+    <content>This bulletin describes a fabricated advanced persistent threat campaign against synthetic research infrastructure. All indicators are synthetic and for testing only.</content>
+  </entry>
+  <entry>
+    <title>Malware Analysis: Synthetic Sample</title>
+    <link href="http://localhost:9999/bulletins/2"/>
+    <id>http://localhost:9999/bulletins/2</id>
+    <updated>2026-09-03T08:00:00Z</updated>
+    <published>2026-09-03T08:00:00Z</published>
+    <author><name>researcher_04</name></author>
+    <content>Analysis of a synthetic malware sample with fabricated IOCs. No real systems were affected. This record exists solely for pipeline testing.</content>
+  </entry>
+</feed>

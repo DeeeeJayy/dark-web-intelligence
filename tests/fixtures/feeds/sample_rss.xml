@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Synthetic Security Research Feed</title>
+    <link>http://localhost:9999/feeds/rss</link>
+    <description>Synthetic RSS feed for pipeline testing. All content is fabricated and for testing only.</description>
+    <item>
+      <title>Threat Actor TTP Report: Synthetic Test Cluster</title>
+      <link>http://localhost:9999/posts/1</link>
+      <description>Researchers observed a synthetic threat actor targeting test infrastructure. This is a fabricated report used only for pipeline testing.</description>
+      <pubDate>Mon, 01 Sep 2026 12:00:00 GMT</pubDate>
+      <author>researcher_01</author>
+    </item>
+    <item>
+      <title>Vulnerability Disclosure: CVE-2026-SYNTH</title>
+      <link>http://localhost:9999/posts/2</link>
+      <description>A fabricated vulnerability disclosure affecting synthetic software versions 1.0 through 2.3. No real systems are involved.</description>
+      <pubDate>Tue, 02 Sep 2026 09:30:00 GMT</pubDate>
+      <author>researcher_02</author>
+    </item>
+  </channel>
+</rss>
